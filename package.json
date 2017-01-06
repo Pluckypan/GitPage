@@ -1,28 +1,29 @@
 {
-  "name": "gh-pages",
-  "version": "0.12.0",
-  "description": "Publish to a gh-pages branch on GitHub (or any other branch on any other remote)",
+  "name": "ee-gitpage",
+  "version": "0.0.1",
+  "description": "publish your static page to git repo(base on gh-pages)",
   "keywords": [
+    "ee-gitpage",
     "git",
     "gh-pages",
     "github"
   ],
   "author": {
-    "name": "Tim Schaub",
-    "url": "http://tschaub.net/"
+    "name": "Plucky",
+    "url": "http://www.echo.engineer/"
   },
   "license": "MIT",
-  "homepage": "https://github.com/tschaub/gh-pages",
+  "homepage": "http://www.echo.engineer/",
   "repository": {
     "type": "git",
-    "url": "git://github.com/tschaub/gh-pages.git"
+    "url": "git@github.com:Pluckypan/ee-gitpage.git"
   },
   "bugs": {
-    "url": "https://github.com/tschaub/gh-pages/issues"
+    "url": "https://github.com/Pluckypan/ee-gitpage/issues"
   },
   "main": "lib/index.js",
   "scripts": {
-    "pretest": "eslint lib test bin/gh-pages",
+    "pretest": "eslint lib test bin/ee-gitpage",
     "test": "mocha --recursive test"
   },
   "dependencies": {
@@ -41,7 +42,7 @@
     "mocha": "^3.1.2"
   },
   "bin": {
-    "gh-pages": "bin/gh-pages"
+    "ee-gitpage": "bin/ee-gitpage"
   },
   "eslintConfig": {
     "extends": "tschaub"
