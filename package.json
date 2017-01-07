@@ -1,6 +1,6 @@
 {
   "name": "ee-gitpage",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "publish your static page to git repo(base on gh-pages)",
   "keywords": [
     "ee-gitpage",

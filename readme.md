@@ -2,6 +2,9 @@
 
 Publish files to a git repo branch(based on gh-pages).
 
+> gh-pages has an error when run in mac-os.(in module util,function copy).
+so we have ee-gitpage
+
 ## Getting Started
 
 ```shell
