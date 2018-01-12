@@ -1,4 +1,4 @@
-# ee-gitpage
+# GitPage
 
 Publish files to a git repo branch(based on gh-pages).
 
